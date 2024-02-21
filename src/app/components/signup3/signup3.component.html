@@ -1,0 +1,27 @@
+<section class="space-ptb">
+  <section class="container">
+    <h2>Course List</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Course ID</th>
+          <th>Details</th>
+          <th>Duration</th>
+          <th>Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let course of courses">
+          <tr>
+            <td>{{ course.courseid }}</td>
+            <td>{{ course.coursedetails }}</td>
+            <td>{{ course.courseduration }}</td>
+            <td>{{ course.coursetime }}</td>
+            <td><button class="submit" (click)="submitToDifferentDB(course)">Submit</button></td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </section>
+</section>

@@ -1,0 +1,26 @@
+<section class="space-ptb bg-dark">
+<div class="container space-ptb text-center bg-dark">
+    <div class="row">
+      <div class="col-md-12 text-center  ">
+             <form class="row fill-form mb-4 mb-md-0 form-flat-style " >      
+             <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+	<div class="main" >  	
+			<div class="signup">
+				<form>
+          	<label >Login</label>		
+  <div class="form-group">
+    <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="email" placeholder="Enter Email">
+  </div>
+   <div class="form-group">
+    <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="form-control" id="password" placeholder="Enter Password">
+  </div>
+				 <button type="submit" class="btn btn-primary" (click)="Login()">Login</button>
+          <p style="color: white;">  click  to <a routerLink="/signup" style="color: aqua;">Register</a> </p> 
+				</form>
+			</div>
+	 </div>
+   </form>  
+      </div>
+    </div>
+  </div>
+</section>

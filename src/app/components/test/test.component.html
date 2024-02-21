@@ -1,0 +1,131 @@
+  <section class="inner-header bg-holder bg-light"  style="background-image: url('../../../assets/img/maxresdefault.jpg');">
+  
+        <div class="container">
+          <div class="row align-items-center position-relative">
+            <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+              <div class="section-title text-center"></div>
+              <div class="section-title text-center"></div>
+              <div class="section-title text-center"></div>
+              <h1 class="breadcrumb-title mb-0 text-white" style="margin-top: 95px; ">Registration Form </h1>
+            </div>
+            <div class="col-md-6">
+              <ol class="breadcrumb d-flex justify-content-center justify-content-md-end ms-auto">
+               
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--=================================
+          Inner Header -->
+&nbsp;&nbsp;
+<section class="space-ptb ">
+        <div class="container-2 ">
+<p> <b>We work closely with Industries starting from IT, Manufacturing, Retail, Automobile, Infrastructure and also we are connected with the best of E-learning / Edutech  companies from India and Overseas though which you can explore unlimited opportunities.
+This subscription is valid for 365 days from the day of registration and you can choose to lead numerous training workshop without any cap, our experts will work with you hand in hand not just in connecting with the client but till the time your commercials are been paid.
+</b></p>
+</div>
+</section>
+
+<section class="space-ptb bg-dark">
+ <section class="container bg-dark ">
+        <div class="container-1 space-ptb ">
+            <form action="#" class="form" #registrationForm="ngForm" (ngSubmit)="login()" novalidate>
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" [(ngModel)]="employeename"  class="form-control" name="employeename" id="employeename" placeholder="Enter full name" required />
+        </div>
+
+       
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="text"  [(ngModel)]="email" name="email" class="form-control" id="email" placeholder="Enter email address" required />
+        </div>
+
+       
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number"  [(ngModel)]="number" name="number" class="form-control" id="number" placeholder="Enter phone number" required />
+          </div>
+          <div class="input-box">
+            <label>password</label>
+            <input type="password" [(ngModel)]="password" name="password" class="form-control" id="password" placeholder="Enter Password" required />
+          </div>
+        </div>
+
+<div class="column">
+          <div class="input-box">
+            <label>education</label>
+            <input type="text" [(ngModel)]="education" name="education" class="form-control" id="education" placeholder="Enter Education" required />
+          </div>
+        </div>
+
+       <div class="column">
+          <div class="input-box">
+            <label>skills</label>
+            <input type="text" [(ngModel)]="skills" name="skills" class="form-control" id="skills" placeholder="Enter Skills" required />
+          </div>
+        </div>
+
+        <div class="input-box">
+          <label>Non-IT Skills</label>
+          <input type="text" [(ngModel)]="nonitskills" name="nonitskills" class="form-control" id="nonitskills" placeholder="Enter Non-IT Skills" required />
+        </div>
+
+          <div class="input-box">
+          <label>othercertifications</label>
+          <input type="text" [(ngModel)]="othercertifications" name="othercertifications" class="form-control" id="othercertifications" placeholder="othercertifications" required />
+        </div>
+
+        <div class="column">
+           <div class="input-box">
+            <label>Total Years Of Exp</label>
+            <input type="number" [(ngModel)]="totalyearsofexp" name="totalyearsofexp" class="form-control" id="totalyearsofexp" placeholder="Total exp" required />
+          </div>
+          <div class="input-box">
+            <label>Years Of IT Exp</label>
+            <input type="number" [(ngModel)]="totalyearsofindexp" name="totalyearsofindexp" class="form-control" id="totalyearsofindexp" placeholder="Years Of IT Exp" required />
+          </div>
+           <div class="input-box">
+            <label>Num Of Clients</label>
+            <input type="number" [(ngModel)]="nubofclients" name="nubofclients" class="form-control" id="nubofclients" placeholder="Enter Num Of Clients" required />
+          </div>
+          <div class="input-box">
+            <label>Trainings Done</label>
+            <input type="number" [(ngModel)]="trainings" name="trainings" class="form-control" id="trainings" placeholder="Enter Trainings" required />
+          </div>
+        </div>
+        
+  
+       
+ <div class="input-box">
+ <div class="justify-content-center" >
+       <label>Incase Forgot Password Fill Below Questions To Retrieve Your Password</label>
+    </div> 
+</div>
+ <div class="column">
+          <div class="input-box">
+            <label>Your NickName</label>
+            <input type="text" [(ngModel)]="quetionone" name="quetionone" class="form-control" id="quetionone" placeholder="Enter NickName" required />
+          </div>
+          <div class="input-box">
+            <label>Your Favorite Color</label>
+            <input type="text" [(ngModel)]="quetiontwo" name="quetiontwo" class="form-control" id="quetiontwo" placeholder="Enter Favorite Color" required />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!registrationForm.valid">Register</button>
+                <p style="color: rgb(255, 255, 255); text-align: center;">Already registered? Click to <a routerLink="/login"
+                        style="color: rgb(1, 178, 248);">Login</a></p>
+      </form>
+  </div> 
+        </section>
+</section>
+
+<section class="space-ptb ">
+        <div class="container-3 ">
+<p> <b> Whether it is a company-wide needs assessment, one-on-one executive coaching or anything in between, Pisgah Solutions Educator’s have the knowledge, expertise, and specialization to deliver our strategic learning and program development services anywhere in the world.
+</b></p>
+</div>
+</section>

@@ -1,0 +1,44 @@
+.nav-link
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #2B0060 0%,
+    #2B0060 50%,
+     #2B0060 67%,
+    #2B0060 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #030303;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 20px;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.navbar{
+  float: center;
+}
+.animate-charcter{
+  color: blueviolet;
+}
+.foot{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#8A2BE2;
+    color: white;
+    text-align: end;
+  } 
+
+ 
